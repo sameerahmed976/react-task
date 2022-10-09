@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "todo": "learn react"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "todo": "learn HTML"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "todo": "learn CSS"
+    },
+    {
+      "id": 4,
+      "checked": true,
+      "todo": "learn Js"
+    }
+  ]
+}

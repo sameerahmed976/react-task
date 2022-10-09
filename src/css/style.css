@@ -221,3 +221,19 @@ img {
   border: 2px solid gray;
   transition: var(--transition-8);
 }
+
+.error {
+  color: red;
+  font-size: var(--font-size-lg);
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: var(--font-size-xl);
+  color: var(--background-color);
+}

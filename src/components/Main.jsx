@@ -1,7 +1,7 @@
 import ListItem from "./ListItem";
 const Main = ({ items, handleChecked, deleteItem }) => {
   return (
-    <main>
+    <>
       {/* <h2 className="main__heading">Hello main</h2> */}
 
       {items.length ? (
@@ -20,7 +20,7 @@ const Main = ({ items, handleChecked, deleteItem }) => {
       ) : (
         <p className="empty"> Your list is empty </p>
       )}
-    </main>
+    </>
   );
 };
 
